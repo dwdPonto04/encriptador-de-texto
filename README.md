@@ -19,7 +19,7 @@ Este projeto é uma aplicação web simples para criptografar e descriptografar 
 - **JavaScript**: Lógica de criptografia/descriptografica, funcionalidade de copiar e limpar.
 
 ## Capturas de Tela
-(..)
+![captura-de-tela](https://github.com/user-attachments/assets/219f4efd-6fbc-42e9-9bbd-0b927f846984)
 
 ## Contribuições
 
