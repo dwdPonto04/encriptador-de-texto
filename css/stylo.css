@@ -139,7 +139,6 @@ body {
     width: 100%;
     height: auto; /* Ajusta a altura para preencher o contêiner pai */
     padding: 15px;
-    border: solid 1px;
     border-radius: 5px;
     overflow: auto; /* Remove rolagem horizontal */
     font-size: 1.5rem;
@@ -283,6 +282,8 @@ body {
     .botao_copiar,
     .botao_limpar {
         width: 100%;
+        border: none;
+        background-color: none;
 
     }
 }
