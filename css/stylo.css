@@ -282,8 +282,7 @@ body {
     .botao_copiar,
     .botao_limpar {
         width: 100%;
-        border: none;
-        background-color: none;
+       
 
     }
 }
