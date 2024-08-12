@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./css/stylo.css">
+</head>
+
+<body>
+    <header></header>
+    <main class="conteudo-principal">
+        <div class="img-logo">
+            <img src="./IMG/logo.PNG" alt="img-logo">
+        </div>
+
+        <div class="conteudo-textarea">
+            <textarea class="textarea" id="textarea" placeholder="Digite seu texto"></textarea>
+            <div class="frase-e-botoes">
+                <div class="frase">
+                    <p>&#9888; Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="botoes">
+                    <button type="button" class="botao_codificar" onclick="botaoEncriptar()"
+                        id="criptografar">Criptografar</button>
+                    <button type="button" class="botao_decodificar" onclick="botaoDesencriptar()"
+                        id="descriptografar">Descriptografar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="fundo-retangular">
+            <img class="img-retangulo" src="./IMG/segunda-imagem-retangulo.png" alt="img-no-retangulo">
+            <div id="fundo-retangular-texto" class="fundo-retangular-texto">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <div id="resultado" class="resultado" style="display: none;"></div>
+            <button onclick="copiar()" id="copiar" class="botao_copiar" style="display:none;">Copiar</button>
+            <button onclick="limpar()" id="limpar" class="botao_limpar" style="display:none;">Limpar</button>
+        </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="rodape">Desenvolvido por David dos Santos</p>
+    </footer>
+    <script src="./js/logica.js"></script>
+</body>
+
+</html>
