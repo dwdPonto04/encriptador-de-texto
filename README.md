@@ -25,6 +25,4 @@ Este projeto é uma aplicação web simples para criptografar e descriptografar 
 
 Contribuições são bem-vindas! Se você deseja contribuir para este projeto, por favor, faça um fork do repositório e envie um pull request com suas alterações.
 
-## Licença
 
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
