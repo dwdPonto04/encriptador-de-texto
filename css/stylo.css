@@ -87,7 +87,7 @@ body {
     background-color: var(--cor-terciaria);
     border-radius: 32px;
     padding: 2%;
-    position: relative; /* Permite posicionar elementos filhos com base neste contêiner */
+    position: relative;
 }
 
 .fundo-retangular-texto {
@@ -130,22 +130,21 @@ body {
 }
 
 .resultado {
-    position: absolute; /* Coloca a div dentro do contêiner pai */
-    top: 10px; /* Ajusta a posição para se alinhar ao contêiner */
-    left: 0;
+    position: absolute;
+    top: 25%; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: auto; /* Ajusta a altura para preencher o contêiner pai */
+    height: auto; 
     padding: 15px;
     border-radius: 5px;
-    overflow: auto; /* Remove rolagem horizontal */
+    overflow: auto; 
     font-size: 1.5rem;
     font-family: var(--font-family-primaria);
     color: var(--cor-secundaria);
     text-align: center;
-    box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura */
+    box-sizing: border-box; 
 }
 
 
